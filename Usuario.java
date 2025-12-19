@@ -1,4 +1,4 @@
-package Construtores.emprestimoslivros;
+package emprestimoslivros;
 
 public class Usuario {
     private int id;
@@ -15,4 +15,11 @@ public class Usuario {
     public int getId() {return id;}
     public String getNome() {return nome;}
     public String getSenha() {return senha;}
+
+    //setter
+
+    public void setSenha(String senha){
+        this.senha = senha;
+    }
+
 }
